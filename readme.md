@@ -44,3 +44,39 @@
     pytest --num_records=10
     ```
 
+## Closing Repositories and Setting Up Your Own:
+
+If you have cloned a repository for this project and want to set it up in your own repository, follow these steps:
+
+1. Clone the repository you want to take as your starting point (replace `<Keith Repo>` with the URL of Keith's repository):
+    ```sh
+    git clone <Cloning Repo URL>
+    ```
+
+2. Check which repository you are currently working with:
+    ```sh
+    git remote -v
+    ```
+
+3. Check for all branches in the repository:
+    ```sh
+    git remote -a
+    ```
+
+4. Set the URL of the origin to your own repository (replace `<Your own Repo>` with the URL of your repository):
+    ```sh
+    git remote set-url origin <Your Own Repo URL>
+    ```
+
+5. Verify that the origin URL has been updated:
+    ```sh
+    git remote -v
+    ```
+
+6. Verify for all branches in your repository:
+    ```sh
+    git remote -a
+    ```
+
+Now, your local repository is configured to push changes to your own repository.
+

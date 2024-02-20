@@ -48,7 +48,7 @@
 
 If you have cloned a repository for this project and want to set it up in your own repository, follow these steps:
 
-1. Clone the repository you want to take as your starting point (replace `<Keith Repo>` with the URL of Keith's repository):
+1. Clone the repository you want to take as your starting point (replace `Cloning Repo URL` with the URL of repository you want to clone):
     ```sh
     git clone <Cloning Repo URL>
     ```
